@@ -6,9 +6,11 @@
 # d. O/P ­> Print function to print 2 Dimensional Array. In Java use PrintWriter with
 # OutputStreamWriter to print the output to the screen.
 
-rows = int(input("Enter number of Rows: "))
-columns = int(input("Enter number of columns: "))
-
+try:
+  rows = int(input("Enter number of Rows: "))
+  columns = int(input("Enter number of columns: "))
+except ValueError:
+  print("plz enter valid input")
 def twoD_array(rows, columns):
   array = []
   for i in range(rows):
