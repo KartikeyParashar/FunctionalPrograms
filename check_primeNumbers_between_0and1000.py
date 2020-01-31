@@ -2,7 +2,7 @@
 
 import math
 
-# Store all programs in empty list
+# Store all prime numbers in empty list
 prime_numbers = []
 
 
