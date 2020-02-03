@@ -24,4 +24,4 @@ def windchill(t,v):
     w = 35.74 + .6215*t + (.4275*t - 35.75)*(pow(v,.16))
     return w
 
-print(f"The windchill is {windchill(t,v)}")
+print(f"The windchill is  {windchill(t,v)}")
